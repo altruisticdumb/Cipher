@@ -1,0 +1,20 @@
+# --- Never commit these: they hold real passwords -------------------------------
+*.cipher
+*.cipher.*
+*.bak
+*.csv
+
+# --- Build output (rebuild with build_installer.bat) ---------------------------
+dist/
+build/
+installer/output/
+*.spec
+
+# --- Python / editor clutter -----------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
